@@ -1,0 +1,21 @@
+会話ボックス内HTMLプラグイン 1.0.0
+
+最初に README.md を開いてください。
+導入手順、サンプルの実行方法、ファイルの配置を記載しています。
+
+基本の導入:
+1. 同梱の data フォルダを導入先プロジェクトの data に統合する。
+2. index.html の kag.tag.js の読み込み行の直後に、次の行を追加する。
+
+   <script src="./data/others/plugin/message_html/message_html.js"></script>
+
+3. プレビューを閉じて開き直す。
+
+使い方の例:
+普通の文章に<strong>太字</strong>を混ぜられます。[p]
+
+詳しい書き方: docs/USAGE.md
+動作確認環境: docs/COMPATIBILITY.md
+更新履歴: CHANGELOG.md
+
+このフォルダ全体を配布できます。TyranoScript本体は同梱していません。

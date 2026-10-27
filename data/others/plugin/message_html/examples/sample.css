@@ -1,0 +1,14 @@
+/* Sample-only classes; all names are prefixed to avoid changing other UI. */
+.message-html-accent {
+    color: #ffd166;
+    font-weight: bold;
+}
+
+.message-html-large {
+    font-size: 1.2em;
+}
+
+.message-html-note {
+    color: #8be9fd;
+    text-decoration: underline;
+}
